@@ -76,7 +76,7 @@ export default function Home() {
             <td className="border-2 border-gray-300 px-2 text-center">
               I Have Zero Knowledge About Zero Knowledge? What Does It Mean to Me?</td>
             <td className="border-2 border-gray-300 px-2 text-center">
-              Soumya from BlocSoc</td>
+              Soumya </td>
             <td className="border-2 border-gray-300 px-2 py-1">
               <ul className="list-disc pl-4">
                 <li>General introduction to Zero Knowledge (ZK)</li>
@@ -92,7 +92,7 @@ export default function Home() {
             <td className="border-2 border-gray-300 px-2 text-center">
               Introduction to SNARKs and STARKs</td>
             <td className="border-2 border-gray-300 px-2 text-center">
-              Muskan from BlocSoc</td>
+              Muskan </td>
             <td className="border-2 border-gray-300 px-2 py-2">
               <ul className="list-disc pl-4">
                 <li>Groth16, Plonk, FFlonk </li>
@@ -107,7 +107,7 @@ export default function Home() {
             <td className="border-2 border-gray-300 px-2 text-center">
               {`SNARKs & Groth16`}</td>
             <td className="border-2 border-gray-300 px-2 text-center">
-              Nikhilesh from BlocSoc</td>
+              Nikhilesh </td>
             <td className="border-2 border-gray-300 px-2 py-2">
               <ul className="list-disc pl-4">
                 <li>Groth16 and its build up</li>
@@ -138,7 +138,7 @@ export default function Home() {
               <pre className="text-center font-sans">{`10:00 AM\n-\n12:30 PM`}</pre>
             </td>
             <td className="border-2 border-gray-300 px-2 text-center">STARKs</td>
-            <td className="border-2 border-gray-300 px-2 text-center">Reeshabh & Arnav from BlocSoc</td>
+            <td className="border-2 border-gray-300 px-2 text-center">Reeshabh & Arnav </td>
             <td className="border-2 border-gray-300 px-2 py-2 text-left">
               <ul className="list-disc pl-4">
                 <li>Plonk vs. Groth16</li>
@@ -153,7 +153,7 @@ export default function Home() {
               <pre className="text-center font-sans">{`1:15 PM\n-\n3:45 PM`}</pre>
             </td>
             <td className="border-2 border-gray-300 px-2 text-center">STARKs</td>
-            <td className="border-2 border-gray-300 px-2 text-center">Reeshabh & Arnav from BlocSoc</td>
+            <td className="border-2 border-gray-300 px-2 text-center">Reeshabh & Arnav </td>
             <td className="border-2 border-gray-300 px-2 py-2 text-left">
               <ul className="list-disc pl-4">
                 <li>Why STARKs are preferred over SNARKs (post-quantum, no trusted setup, scalability, dynamic circuits)</li>
