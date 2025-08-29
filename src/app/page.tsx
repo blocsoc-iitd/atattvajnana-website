@@ -81,23 +81,27 @@ export default function Home() {
               <ul className="list-disc pl-4">
                 <li>General introduction to Zero Knowledge (ZK)</li>
                 <li>Mathematical introduction to ZK</li>
+                <li>P and NP</li>
                 <li>Recap of Linear Algebra</li>
                 <li>Set and Group Theory, Abstract Algebra, Homomorphism, ECC (addition, scalar multiplication, bilinear pairings, Field Extensions)</li>
+                <li>Commitment Schemes</li>
               </ul>
             </td>
           </tr>
           <tr>
             <td className="border-2 border-gray-300 px-2 text-center">
-              <pre className="text-center font-sans">{`5:45 PM\n-\n7:15 PM`}</pre></td>
+              <pre className="text-center font-sans">{`5:30 PM\n-\n7:00 PM`}</pre></td>
             <td className="border-2 border-gray-300 px-2 text-center">
               Introduction to SNARKs and STARKs</td>
             <td className="border-2 border-gray-300 px-2 text-center">
               Muskan </td>
             <td className="border-2 border-gray-300 px-2 py-2">
               <ul className="list-disc pl-4">
-                <li>Groth16, Plonk, FFlonk </li>
-                <li>Types of Starks & Stark flow</li>
-                <li>Circom → ZKREPL Demo (30min)</li>
+                <li>What is a SNARK?</li>
+                <li>SNARK systems(Groth16, Plonk)</li>
+                <li>What is a STARK?</li>
+                <li>STARK systems</li>
+                <li>Circuits in Circom</li>
               </ul>
             </td>
           </tr>
@@ -137,14 +141,15 @@ export default function Home() {
             <td className="border-2 border-gray-300 px-2 text-center">
               <pre className="text-center font-sans">{`10:00 AM\n-\n12:30 PM`}</pre>
             </td>
-            <td className="border-2 border-gray-300 px-2 text-center">STARKs</td>
+            <td className="border-2 border-gray-300 px-2 text-center">Building a Stark System: Part 1</td>
             <td className="border-2 border-gray-300 px-2 text-center">Reeshabh & Arnav </td>
             <td className="border-2 border-gray-300 px-2 py-2 text-left">
               <ul className="list-disc pl-4">
-                <li>Plonk vs. Groth16</li>
-                <li>Arithmetization</li>
-                <li>Full Plonk theory rundown</li>
-                <li>Plonkathon (hands-on session)</li>
+                <li>Hands On</li>
+                <li>Statements, Low Degree Extensions</li>
+                <li>Commitments</li>
+                <li>Lagrange Interpolation, Polynomial Commitments, Schwartz Zippel Lemma, Merkle Trees</li>
+                <li>FFT</li>
               </ul>
             </td>
           </tr>
@@ -152,26 +157,29 @@ export default function Home() {
             <td className="border-2 border-gray-300 px-2 text-center">
               <pre className="text-center font-sans">{`1:15 PM\n-\n3:45 PM`}</pre>
             </td>
-            <td className="border-2 border-gray-300 px-2 text-center">STARKs</td>
+            <td className="border-2 border-gray-300 px-2 text-center">Building a Stark System: Part 2</td>
             <td className="border-2 border-gray-300 px-2 text-center">Reeshabh & Arnav </td>
             <td className="border-2 border-gray-300 px-2 py-2 text-left">
               <ul className="list-disc pl-4">
-                <li>Why STARKs are preferred over SNARKs (post-quantum, no trusted setup, scalability, dynamic circuits)</li>
-                <li>Connecting Day 1 math lectures to build the STARK protocol</li>
-                <li>Stark101 (hands-on rundown)</li>
+               <li>F.R.I</li>
+               <li>Fiat Shamir Heuristic</li>
+               <li>F.R.I queries</li>
+               <li>STARK proof in action</li>
               </ul>
             </td>
           </tr>
           <tr>
             <td className="border-2 border-gray-300 px-2 py-2 text-center">
-              <pre className="text-center font-sans">{`4:15 PM\n-\n6:45 PM`}</pre>
+              <pre className="text-center font-sans">{`4:15 PM\n-\n7:00 PM`}</pre>
             </td>
-            <td className="border-2 border-gray-300 px-2 text-center">How to Build a zkVM?</td>
+            <td className="border-2 border-gray-300 px-2 text-center">Boom 💥 Zero Knowlege Virtual Machines</td>
             <td className="border-2 border-gray-300 px-2 text-center">Aayush</td>
             <td className="border-2 border-gray-300 px-2 py-2 text-left">
               <ul className="list-disc pl-4">
-                <li>Exploration of building a zero-knowledge virtual machine (zkVM)</li>
-                <li>Guiding participants to theorize a simple zkVM</li>
+                <li>What is a zkVM?</li>
+                <li>How is using a zkVM different from writing circuits in circom?</li>
+                <li>zkVM components</li>
+                <li>Theorizing a simple zkVM</li>
               </ul>
             </td>
           </tr>
